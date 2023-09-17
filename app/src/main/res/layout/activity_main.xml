@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <!-- TEXT PRINCIPAL (Sitemas de compras) -->
+    <TextView
+        android:id="@+id/Text_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/Text_secundario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:text="@string/TextSecundario"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/Text_principal"
+
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Arroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="@string/Checkbox_Arroz"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text_secundario"
+
+        android:layout_margin="10dp"
+/>
+
+    <CheckBox
+        android:id="@+id/checkBox_Leite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Checkbox_Leite"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Arroz"
+
+        android:layout_margin="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox_Carne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Checkbox_Carne"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Leite"
+
+        android:layout_margin="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox_Feijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Checkbox_Feijao"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Carne"
+
+        android:layout_margin="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox_Refrigerante_Cola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Checkbox_Refrigerante_cola"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Feijao"
+
+        android:layout_margin="10dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

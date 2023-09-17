@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sistemas de Compras</string>
+    <string name="TextSecundario">Escolha o seu produto</string>
+    <string name="Checkbox_Arroz">Arroz (R$2,69)</string>
+    <string name="Checkbox_Leite">Leite (R$5,00)</string>
+    <string name="Checkbox_Carne">Carne (R$10,00)</string>
+    <string name="Checkbox_Feijao">Feijão (R$2,30)</string>
+    <string name="Checkbox_Refrigerante_cola">Refrigerante Coca-Cola (R$2,00)</string>
+    <string name="Buton_Calcularcompra">Total da compra</string>
+</resources>
